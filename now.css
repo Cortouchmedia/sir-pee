@@ -1,0 +1,273 @@
+
+     @media (max-width: 769px) {
+       nav {
+           padding: 15px 20px;
+           z-index: 9999;
+        }
+        nav img{
+            width: 130px;
+            margin-top: -60px;
+        }
+        #menu-btn{
+            display: initial;
+        }
+        
+        #menu-close{
+            display: initial;
+            font-size: 1.6rem;
+            color: #fff;
+            padding: 30px 0 20px 20px;
+        }
+        nav .navigation ul{
+            position: absolute;
+            top: 0;
+            right: -220px;
+            width: 220px;
+            height: 100vh;
+            background: rgba(17, 20, 104, 0.45);
+            backdrop-filter: blur(4.5px);
+            border: 1px solid rgba(255, 255, 255, 0.18);
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            transition: 0.3ease;
+        }
+        nav .navigation ul.active{
+            right: 0;
+        }
+        nav .navigation ul li{
+            padding: 20px 0 20px 40px;
+            margin-left: 0;
+        }
+
+        nav .navigation ul li a{
+            color: #fff;
+        }
+        #home{
+            padding-top: 0px;
+        }
+
+        #home p{
+            width: 90%;
+        }
+        #features{
+            padding: 8vw 8vw 0 4vw;
+        }
+
+        #course{
+            padding: 8vw 4vw 0 4vw;
+            z-index: 999;
+        }
+        #registration{
+            margin-top: 8vw;
+         padding: 6vw 4vw 6vw 4vw;
+        }
+        #registration .reminder .time{
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 40px;
+        }
+        #experts{
+            padding: 8vw 8vw 4vw 8vw;
+            text-align: center;
+            margin-top: -10px;
+        }
+        footer .copyright .pro-links{
+            margin-top: 15px;
+         }
+         /* About */
+         #about-container{
+            padding: 8vw 4vw 2vw 4vw;
+         }
+         #about-container .about-img{
+            padding-right: 30px;
+         }
+         #trust .trust-img img{
+            width: 50px;
+            height: auto;
+         }
+
+         /* Blog */
+         #blog-container{
+            padding: 8vw 4vw;
+        }
+        #blog-container .blogpost{
+            width: 100%;
+            margin-top: 30px;
+        }
+        nav img{
+            width: 100px;
+            cursor: pointer;
+            margin-top: -40px;
+        }
+        #blog-container .blogpost img{
+            width: 100%;
+            height: 50vh;
+            object-fit: cover;
+        }
+        /* Course_inner */
+        #course-inner{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            padding: 8vw 4vw;
+            z-index: 999;
+        }
+        #course-inner .overview{
+            width: 100%;
+        }
+        #course-inner .overview .course-img{
+            width: 100%;
+            height: 100%;
+        }
+        #course-inner .enrol{
+            margin-top: 25px;
+        }
+        /* contact */
+        #contact{
+            padding: 8vw 4vw;
+        }
+        #contact .getin{
+            width: 250px;
+           }
+           /* course */
+           #course .courses img{
+            z-index: 999;
+        }
+        
+        #course .courses .details{
+            z-index: 999;
+        }
+        
+        #course .courses .details h6{
+            z-index: 999;
+        }
+        #course .courses .details .star{
+            
+            z-index: 999;
+        }
+        
+        #course .courses .details i{
+            
+            z-index: 999;
+        }
+        
+        #course .courses .cost{
+            
+            z-index: 999;
+        }
+     }
+
+     @media (max-width:475) {
+        h1{
+            font-size: 2rem;
+        }
+        #registration{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        #registration .reminder .time{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        /* About */
+        #about-container{
+          flex-direction: column-reverse;
+        }
+        #about-container .about-img{
+            width: 100%;
+            padding-right: 0px;
+        }
+        #about-container .about-text{
+            width: 100%;
+            padding-bottom: 20px;
+        }
+        #trust .trust-img{
+            margin-top: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        #trust .trust-img img{
+            width: 60px;
+            margin: 10px 15px;
+            height: auto;
+        }
+        /* blog */
+        #blog-container{
+            flex-direction: column;
+        }
+        #blog-container .blogs{
+            width: 100%;
+        }
+        #blog-container .cate{
+            width: 100%;
+        }
+        #blog-container .blogpost{
+            width: 100%;
+            margin-top: 70px;
+        }
+        nav img{
+            width: 100px;
+            cursor: pointer;
+            margin-top: -40px;
+        }
+        #blog-container .blogpost img{
+            width: 100%;
+            height: 50vh;
+            object-fit: cover;
+        }
+        #course-inner .overview .course-head .c-name{
+            width: 50%;
+        }
+        #course-inner .overview .course-head .c-name h2{
+            font-size: 22px;
+        }
+        #course-inner .overview .course-head span{
+            font-size: 22px;
+        }
+        #course-inner .enrol{
+            width: 100%;
+        }
+        /* contact */
+        #contact{
+            padding: 8vw 4vw;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-start;
+        }
+        #contact .getin{
+            width: 100%;
+            margin-bottom: 30px;
+        }
+        #contact .form{
+            width: 100%;
+            padding: 40px 30px;
+        }
+        #contact .form .form-row{
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            width: 100%;
+           }
+        #contact .form .form-row input{
+            width: 100%;
+        }
+     }
+
+     @media (max-width: 376px){
+        footer input{
+            width: 100%;
+            margin-bottom: 20px;
+        }
+     }
